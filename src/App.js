@@ -5,8 +5,8 @@ function App() {
   
   return (
     <div>
-      <Hello />
-      <Hello />
+      <Hello age={10}/>
+      <Hello age={20}/>
     </div>
   );
 }
