@@ -1,12 +1,14 @@
-import Hello from './component/Hello';
-import './App.css';
-
+import './index.css';
+import Header from './component/Header';
+import DayList from './component/DayList';
+import Day from './component/Day';
 function App() {
   
   return (
-    <div>
-      <Hello age={10}/>
-      <Hello age={20}/>
+    <div className="App">
+      <Header />
+      <DayList />
+      <Day />
     </div>
   );
 }
